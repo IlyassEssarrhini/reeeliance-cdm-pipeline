@@ -29,7 +29,7 @@ def read_csv_records(path: str) -> list[dict]:
             repaired.append(buffer)
             buffer = ""
         else:
-            logger.warning("Line %s hat too few fileds, merging with next line", line_no)
+            logger.warning("Line %s has too few fileds, merging with next line", line_no)
 
     # Unvollstaendiger Datensatz am Dateiende
     if buffer:
