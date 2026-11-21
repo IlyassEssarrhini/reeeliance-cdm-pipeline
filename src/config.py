@@ -12,7 +12,7 @@ RAW_ORDERS = RAW_DIR / "raw_orders.csv"
 # CDM schema: used fro CSV column order AND for model.json
 CDM_ENTITIES = {
     "Contact": {
-        "descriptiopn": "Standard CDM Contract entity for individual customers",
+        "description": "Standard CDM Contract entity for individual customers",
         "attributes": [
             ("contactid", "string", "Unique primary key for the contact"),
             ("firstname", "string", "First name of the contact"),
